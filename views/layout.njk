@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        {% block head %}
+
+        <title>Page</title>
+
+        {% endblock %}
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="links">
+                <a href="/">Sobre</a>
+                <a href="/portfolio">Portfolio</a>
+            </div>
+        </header>
+
+        {% block content %}
+
+        {% endblock %}
+
+
+    </body>
+</html>
